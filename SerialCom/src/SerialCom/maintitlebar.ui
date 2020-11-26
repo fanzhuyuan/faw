@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainTitleBar</class>
+ <widget class="QWidget" name="MainTitleBar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>100</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>100</height>
+   </size>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainTitleBar</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget
+{
+    color: #b1b1b1;
+    background-color: rgb(67, 142, 185);
+    selection-background-color:rgb(67, 142, 185);
+    selection-color: black;
+    background-clip: border;
+    border-image: none;
+    border: 0px transparent black;
+    outline: 0;
+	font-family:Microsoft YaHei;
+}
+
+QWidget:item:hover
+{
+    background-color: #D1DBCB;
+    color: black;
+}
+
+QWidget:item:selected
+{
+    background-color: #D1DBCB;
+    border: 0px
+}
+
+
+QPushButton
+{
+    color: #eff0f1;
+    background-color: rgb(67, 142, 185);
+    border-width: 0px;
+    border-color: rgb(67, 142, 185);
+    border-style: solid;
+    padding: 5px;
+    border-radius: 0px;
+    outline: none;
+	font-size:14px;
+}
+
+QPushButton:disabled
+{
+    background-color: #535353;
+    border-width: 1px;
+    border-color: #454545;
+    border-style: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    color: #454545;
+}
+
+QPushButton:focus {
+    background-color: #D1DBCB;
+    color: black;
+}
+
+QPushButton:pressed
+{
+    color: black;
+    background-color: #D1DBCB;
+    padding-top: -15px;
+    padding-bottom: -17px;
+}
+
+
+
+QPushButton:hover
+{
+    border: 1px solid #D1DBCB;
+}
+
+QToolTip
+{
+     border: 1px solid black;
+     background-color: #D1DBCB;
+     padding: 1px;
+     border-radius: 3px;
+     color:white;
+}
+</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_3">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="minimumSize">
+      <size>
+       <width>400</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>标题</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>166</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="spacing">
+        <number>10</number>
+       </property>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_min">
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="toolTip">
+          <string>最小化</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton
+{
+    color: #eff0f1;
+    background-color: rgb(67, 142, 185);
+    border-width: 0px;
+    border-color: rgb(67, 142, 185);
+    border-style: solid;
+    padding: 5px;
+    border-radius: 0px;
+    outline: none;
+	font-size:14px;
+}
+
+
+
+QPushButton:focus {
+    background-color: #D1DBCB;
+    color: black;
+}
+
+QPushButton:pressed
+{
+    color: black;
+    background-color: #D1DBCB;
+    padding-top: -15px;
+    padding-bottom: -17px;
+}
+
+
+
+QPushButton:hover
+{
+    border: 1px solid #D1DBCB;
+background-color: rgba(127, 125, 127, 127);
+}
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/PortableDetector/Resources/images/title_bar/minimize.png</normaloff>:/PortableDetector/Resources/images/title_bar/minimize.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_max">
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="toolTip">
+          <string>最小化</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+QPushButton
+{
+    color: #eff0f1;
+    background-color: rgb(67, 142, 185);
+    border-width: 0px;
+    border-color: rgb(67, 142, 185);
+    border-style: solid;
+    padding: 5px;
+    border-radius: 0px;
+    outline: none;
+	font-size:14px;
+}
+
+
+
+QPushButton:focus {
+    background-color: #D1DBCB;
+    color: black;
+}
+
+QPushButton:pressed
+{
+    color: black;
+    background-color: #D1DBCB;
+    padding-top: -15px;
+    padding-bottom: -17px;
+}
+
+
+
+QPushButton:hover
+{
+    border: 1px solid #D1DBCB;
+background-color: rgba(127, 125, 127, 127);
+}
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/PortableDetector/Resources/images/title_bar/minimize.png</normaloff>:/PortableDetector/Resources/images/title_bar/minimize.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_close">
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="toolTip">
+          <string>退出程序</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+    color: #eff0f1;
+    background-color: rgb(67, 142, 185);
+    border-width: 0px;
+    border-color: rgb(67, 142, 185);
+    border-style: solid;
+    padding: 5px;
+    border-radius: 0px;
+    outline: none;
+	font-size:14px;
+}
+
+
+
+QPushButton:focus {
+    background-color: #D1DBCB;
+    color: black;
+}
+
+QPushButton:pressed
+{
+    color: black;
+    background-color: #D1DBCB;
+    padding-top: -15px;
+    padding-bottom: -17px;
+}
+
+
+
+QPushButton:hover
+{
+    border: 1px solid #D1DBCB;
+	background-color:rgb(232,17,35);
+}
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/PortableDetector/Resources/images/title_bar/close.png</normaloff>:/PortableDetector/Resources/images/title_bar/close.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="portabledetector.qrc"/>
+ </resources>
+ <connections/>
+</ui>

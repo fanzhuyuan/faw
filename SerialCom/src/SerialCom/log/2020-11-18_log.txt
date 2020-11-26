@@ -1,0 +1,1 @@
+[15:48:47] [Info] [log name:log.txt ---called by file:logger.cpp at line 230]

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{054de9d2-9865-4638-afa6-7719db55e0f0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{2a3c59a2-d220-4eaf-bd4d-e3538723bd2b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\通用">
+      <UniqueIdentifier>{8079f0d1-24f1-4f04-a8ab-fa7dff2d2eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\工具">
+      <UniqueIdentifier>{53a9820f-725b-4815-bf0a-8e695fdfd317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\页面显示">
+      <UniqueIdentifier>{d6000d90-ae15-4948-a25d-d016938e2332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\数据采集">
+      <UniqueIdentifier>{dab1b753-4771-409e-9e6b-967ca46960b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\页面显示\标题栏">
+      <UniqueIdentifier>{1a1e66a1-cfc8-46a2-b6a4-fe908c17e6d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_serialcom.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_serialcom.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_serialcom.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_maintitlebar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_maintitlebar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common_funcs.cpp">
+      <Filter>Source Files\通用</Filter>
+    </ClCompile>
+    <ClCompile Include="serialcom.cpp">
+      <Filter>Source Files\页面显示</Filter>
+    </ClCompile>
+    <ClCompile Include="maintitlebar.cpp">
+      <Filter>Source Files\页面显示\标题栏</Filter>
+    </ClCompile>
+    <ClCompile Include="Homepage.cpp">
+      <Filter>Source Files\页面显示</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Source Files\通用</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Homepage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Homepage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_configpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_configpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="configpage.cpp">
+      <Filter>Source Files\页面显示</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor.cpp">
+      <Filter>Source Files\数据采集</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Sensor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Sensor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPool.cpp">
+      <Filter>Source Files\通用</Filter>
+    </ClCompile>
+    <ClCompile Include="gsr_sensor.cpp">
+      <Filter>Source Files\数据采集</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_gsr_sensor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_gsr_sensor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_common_sensor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_common_sensor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="common_sensor.cpp">
+      <Filter>Source Files\数据采集</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_otherpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_otherpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="otherpage.cpp">
+      <Filter>Source Files\页面显示</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="serialcom.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="serialcom.h">
+      <Filter>Source Files\页面显示</Filter>
+    </CustomBuild>
+    <CustomBuild Include="serialcom.ui">
+      <Filter>Source Files\页面显示</Filter>
+    </CustomBuild>
+    <CustomBuild Include="maintitlebar.h">
+      <Filter>Source Files\页面显示\标题栏</Filter>
+    </CustomBuild>
+    <CustomBuild Include="maintitlebar.ui">
+      <Filter>Source Files\页面显示\标题栏</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HomePage.ui">
+      <Filter>Source Files\页面显示</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Homepage.h">
+      <Filter>Source Files\页面显示</Filter>
+    </CustomBuild>
+    <CustomBuild Include="configpage.ui">
+      <Filter>Source Files\页面显示</Filter>
+    </CustomBuild>
+    <CustomBuild Include="configpage.h">
+      <Filter>Source Files\页面显示</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Sensor.h">
+      <Filter>Source Files\数据采集</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gsr_sensor.h">
+      <Filter>Source Files\数据采集</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common_sensor.h">
+      <Filter>Source Files\数据采集</Filter>
+    </CustomBuild>
+    <CustomBuild Include="otherpage.ui">
+      <Filter>Source Files\页面显示</Filter>
+    </CustomBuild>
+    <CustomBuild Include="otherpage.h">
+      <Filter>Source Files\页面显示</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_HomePage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common_funcs.h">
+      <Filter>Source Files\通用</Filter>
+    </ClInclude>
+    <ClInclude Include="const_def.h">
+      <Filter>Source Files\通用</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_maintitlebar.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_serialcom.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qss_manager.h">
+      <Filter>Source Files\工具</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Source Files\通用</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_configpage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool.h">
+      <Filter>Source Files\通用</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_otherpage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+[Param]
+port=COM3
+baud_rate=115200
+data_bit=8
+stop_bit=1
+check_bit=0
+
+[System]
+version=0.1
+ver_name=SerialCOM

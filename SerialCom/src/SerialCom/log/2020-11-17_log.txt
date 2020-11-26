@@ -1,0 +1,7 @@
+[11:29:14] [Info] [log name:log.txt ---called by file:logger.cpp at line 230]
+[11:33:15] [Info] [log name:log.txt ---called by file:logger.cpp at line 230]
+[15:47:24] [Info] [log name:log.txt ---called by file:logger.cpp at line 230]
+[15:47:27] [Info] [~logger ---called by file:logger.cpp at line 75]
+[15:53:51] [Info] [log name:log.txt ---called by file:logger.cpp at line 230]
+[16:07:57] [Info] [log name:log.txt ---called by file:logger.cpp at line 230]
+[16:09:31] [Info] [log name:log.txt ---called by file:logger.cpp at line 230]
